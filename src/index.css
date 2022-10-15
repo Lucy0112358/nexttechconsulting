@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Lexend";
+  src: local("Lexend"),
+   url("./Fonts/Lexend/Lexend-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }

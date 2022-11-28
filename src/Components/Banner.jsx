@@ -1,12 +1,30 @@
 import React from "react";
 import StyledBanner from "../Styled/Banner.styled";
+import "../styles/banner.css";
+import cloud from "../images/cloud.png";
 
 function Banner() {
   return (
     <>
       <StyledBanner>
-        <div>1</div>
-        <div>2</div>
+        <div className="first-div">
+          <div className="header">
+            Business is <br></br>Now Digital{" "}
+          </div>
+          <div className="main-text">
+            We blend insight and strategy to create digital products for forward
+            thinking organisations.
+          </div>
+          <div className="buttons">
+            <button>Get started</button>
+            <button>Download</button>
+          </div>
+        </div>
+        <div className="blue-div">
+          <div className="small-picture">
+            <img src={cloud} />
+          </div>
+        </div>
       </StyledBanner>
     </>
   );

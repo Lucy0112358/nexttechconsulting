@@ -1,0 +1,23 @@
+.service{
+    background: #EAECEF;
+}
+.title{
+    font-size: 55px;
+    font-family: "Lexend";
+    font-weight: 700;
+    padding-top: 4.583vw;
+}
+.subtitle{
+    font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+}
+.flex-content{
+    margin-left: 15.069vw;
+    margin-top: 8.333vw;
+    display: flex;
+    flex-direction: row;
+    gap: 3.333vw
+}

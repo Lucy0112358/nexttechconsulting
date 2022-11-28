@@ -18,3 +18,6 @@ code {
    url("./Fonts/Lexend/Lexend-Regular.ttf") format("truetype");
   font-weight: bold;
   }
+  #menu-appbar{
+    margin-top: 0 !important
+  }

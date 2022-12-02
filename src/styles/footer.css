@@ -1,0 +1,22 @@
+main{
+    background: #121B2E;
+    color: white
+}
+.img{
+    width: 5.968vw;
+    height: 5.968vw;
+}
+.social-icon{
+    filter: brightness(0) invert(1);
+}
+.social{
+    display: flex;
+    gap: 5px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.username{
+    color: #0067F4;
+    margin-bottom: 50px;
+}

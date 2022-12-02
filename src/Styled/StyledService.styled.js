@@ -30,7 +30,7 @@ const StyledService = styled.div`
     font-size: 18px;
     line-height: 27px;
     color: #0067f4;
-    cursor: pointer
+    cursor: pointer;
     
   }
   .flex-divs {

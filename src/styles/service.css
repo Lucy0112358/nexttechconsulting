@@ -21,3 +21,7 @@ line-height: 27px;
     flex-direction: row;
     gap: 3.333vw
 }
+.featured-images {
+    width: 15.892vw;
+    height: 13.879vw;
+}

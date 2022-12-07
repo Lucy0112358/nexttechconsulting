@@ -1,27 +1,67 @@
-.service{
-    background: #EAECEF;
+.service {
+  background: #eaecef;
 }
-.title{
-    font-size: 55px;
-    font-family: "Lexend";
-    font-weight: 700;
-    padding-top: 4.583vw;
+.title {
+  font-size: 55px;
+  font-family: "Lexend";
+  font-weight: 700;
+  padding-top: 4.583vw;
 }
-.subtitle{
-    font-family: 'Lexend';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
+.subtitle {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
-.flex-content{
-    margin-left: 15.069vw;
-    margin-top: 8.333vw;
-    display: flex;
-    flex-direction: row;
-    gap: 3.333vw
+.flex-content {
+  margin-left: 15.069vw;
+  margin-top: 8.333vw;
+  display: flex;
+  flex-direction: row;
+  gap: 3.333vw;
 }
 .featured-images {
-    width: 15.892vw;
-    height: 13.879vw;
+  width: 15.892vw;
+  height: 13.879vw;
+}
+.item:hover {
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0372f1,
+    #00f2fe
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0372f1,
+    #00f2fe
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  transition: 0.4s;
+}
+.flex:first-child {
+  flex-direction: column;
+  margin-left: -100px;
+}
+.item {
+  width: 13.889vw;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Lexend";
+  border-radius: 50px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 140px;
+  align-items: left;
+}
+.featured-images {
+  flex: 1 0 26%;
+  width: 15.903vw;
+  height: 13.889vw;
 }

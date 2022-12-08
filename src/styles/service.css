@@ -59,6 +59,7 @@
   flex-wrap: wrap;
   margin-bottom: 140px;
   align-items: left;
+  margin-right: 16.111vw;
 }
 .featured-images {
   flex: 1 0 26%;

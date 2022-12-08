@@ -8,6 +8,7 @@ const StyledService = styled.div`
   flex-direction: column;
   text-align: left;
   padding-left: 10px;
+  margin-bottom: 100px;
   h1 {
     font-family: "Poppins";
     font-style: normal;

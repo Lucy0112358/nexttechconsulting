@@ -1,6 +1,11 @@
 main{
     background: #121B2E;
-    color: white
+    color: white;
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 40px;
 }
 .img{
     width: 5.968vw;

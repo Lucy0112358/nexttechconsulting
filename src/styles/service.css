@@ -66,3 +66,17 @@
   width: 15.903vw;
   height: 13.889vw;
 }
+
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 30px;
+  }
+  .distance {
+    margin-bottom: -50px;
+  }
+  .flex-content {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}

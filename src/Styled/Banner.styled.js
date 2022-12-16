@@ -16,5 +16,8 @@ background-color: #1976d2;
     background-repeat: no-repeat;
     background-size: cover
 }
+@media screen and (max-width: 480px) {
+flex-direction: column
+  }
 `
 export default StyledBanner

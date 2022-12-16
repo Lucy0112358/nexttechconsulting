@@ -9,7 +9,8 @@ function Banner() {
       <StyledBanner>
         <div className="first-div">
           <div className="header">
-            Business is <br></br>Now Digital{" "}
+            <div className="distance">Business is</div>
+            <div>Now Digital</div>{" "}
           </div>
           <div className="main-text">
             We blend insight and strategy to create digital products for forward
